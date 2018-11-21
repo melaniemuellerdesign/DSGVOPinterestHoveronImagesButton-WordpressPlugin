@@ -1,0 +1,57 @@
+/*Pinterest*/
+/*share Pinterest*/
+.mysharecontainer {
+  position: relative;
+  width: 100%;
+}
+
+/* Container The overlay effect (full height and width) - lays on top of the container and over the image */
+.mysharebutton {
+	position: absolute;
+  	margin: 10px;
+ 	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 200px;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .3s ease;
+}
+
+.mysharebutton:hover {opacity:1}
+
+/*Sharebutton ul design*/
+ul.share-buttons{
+  	list-style: none;
+  	padding: 0;
+}
+
+/*a Sharebuttons */
+ul.share-buttons a{
+  	display: block;
+  	width: 35px;
+  	height: 35px;
+    background: rgba(149, 165, 166, 1);
+    margin: 20px;
+  	border-radius: 50px;
+  	border: 1px solid white;
+	}
+ul.share-buttons a img {   
+		-webkit-box-shadow: none;
+   		 box-shadow: none;}
+
+/*SR*/
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+
