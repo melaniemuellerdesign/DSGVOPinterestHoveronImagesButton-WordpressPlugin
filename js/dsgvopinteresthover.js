@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-	var pin= window.location.protocol + "//" + window.location.host + "/wp-content/plugins/DSGVOPinterestHoveronImagesButton/images/simple_icons/Pinterest.svg";
+	var pin= window.location.protocol + "//" + window.location.host + "/wp-content/plugins/DSGVOPinterestHoveronImagesButton/images/simple_icons/Pinterest.png";
 
 	jQuery ("#content img").before("<div class=mysharecontainer><div class=mysharebutton>");
 	jQuery ("#content img").after("</div></div>");
